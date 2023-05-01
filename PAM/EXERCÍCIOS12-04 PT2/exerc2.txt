@@ -1,0 +1,30 @@
+fun main( ) {
+
+val altura: Double = 1.50;
+val peso: Double = 57.0;
+val IMC = peso/ (altura * altura);
+    
+if(IMC <= 18){
+    
+    println("Você apresenta magreza" +IMC)
+    
+}else{
+    
+    if(IMC < 25){
+        
+        println("Você está saudável" +IMC)
+        
+ } else{
+        
+        if(IMC < 30){
+            
+            println("Você está sobrepeso" +IMC)
+            
+  } else{
+            
+            println("Você apresenta obesidade" +IMC)
+        }
+}
+    
+    }
+}

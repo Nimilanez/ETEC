@@ -1,0 +1,5 @@
+fun main() {
+      println("4º exercício ")
+      var aumento: Double = 1.5;
+      var salario: Double = 100.00;
+  }

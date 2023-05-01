@@ -1,0 +1,31 @@
+ fun main () {
+    println("1 Janeiro")
+    println("2 Fevereiro")
+    println("3 Março")
+    println("4 Abril")
+    println("5 Maio")
+    println( "6 Junho")
+    println("7 Julho")
+    println("8 Agosto")
+    println("9 Setembro")
+    println("10 Outubro")
+    println("11 Novembro")
+    println("12 Dezembro")
+     val num= 10;
+      
+     when (num) { 
+      1 -> println("O número escolhido está se referindo a: Janeiro")
+      2 -> println("O número escolhido está se referindo a: Fevereiro")
+      3 -> println("O número escolhido está se referindo a: Março")
+      4 -> println("O número escolhido está se referindo a: Abril")
+      5 -> println("O número escolhido está se referindo a: Maio")
+      6 -> println("O número escolhido está se referindo a: Junho")
+      7 -> println("O número escolhido está se referindo a: Julho")
+      8 -> println("O número escolhido está se referindo a: Agosto")
+      9 -> println("O número escolhido está se referindo a: Setembro")
+      10 -> println("O número escolhido está se referindo a: Outubro")
+      11 -> println("O número escolhido está se referindo a: Novembro")
+      12 -> println("O número escolhido está se referindo a: Dezembro")
+      else -> println("Não há opção disponível para o número informado.Tente novamente!")
+        }
+        }

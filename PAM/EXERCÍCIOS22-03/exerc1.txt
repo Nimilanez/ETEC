@@ -1,0 +1,9 @@
+fun main () {
+       println("1º exercício")
+       val n = 16
+       if (n > 10){
+       println ("O número que for digitado é maior que 10! $n")
+       }else{
+           println ("Digite outro número")
+       }
+   }

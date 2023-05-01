@@ -1,0 +1,32 @@
+class Usuario(val nome: String, val idade: Int, var salario: Double) {
+ fun informarSalario() {
+ println("$nome recebe R$ $salario.")
+ }
+ fun informarIdade() {
+  println  ("$nome tem $idade anos.") 
+}
+fun andar(){
+println("$nome está andando.") 
+}
+fun falar() {
+    println("$nome está falando.")
+}
+fun beber() {
+println("$nome está bebendo.")    
+}
+fun comer () {
+println("$nome está comendo.")
+}
+}
+fun main(args: Array<String>) {
+ val usuario = Usuario("Nicole",15,3000.0)  
+ usuario.informarSalario()
+ usuario.informarIdade()
+ usuario.andar()
+ usuario.falar()
+ usuario.beber()
+ usuario.comer()
+}
+   
+    
+    

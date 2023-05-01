@@ -1,0 +1,6 @@
+ fun main() {
+       println("3º exercício ")
+       val nomeUser = "Nicole"
+       val saudacao = "Bem-Vindo(a) o calculo de média, $nomeUser"
+       println(saudacao)
+   }

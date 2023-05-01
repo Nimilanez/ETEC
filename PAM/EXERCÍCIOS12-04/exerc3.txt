@@ -1,0 +1,16 @@
+class Externa{
+private var    x = 7
+ fun instanciaInterna(){
+     val interna = Interna()
+     interna.imprimeExterna()
+ }
+ inner class Interna{
+ fun imprimeExterna(){
+     println("x vale $x")
+ }
+ }    
+ }
+fun main(args: Array<String>) {
+    val ex = Externa()
+    ex.instanciaInterna()
+}

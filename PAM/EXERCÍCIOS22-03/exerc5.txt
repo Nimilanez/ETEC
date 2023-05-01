@@ -1,0 +1,15 @@
+ fun main() {
+ class Celular(val marca: String, val modelo: String, val preco: Double, val descontos: Double) {
+
+fun precoComDesconto(): Double {
+return preco - descontos
+}
+
+fun imprimeDetalhes() {
+println("Marca: $marca")
+println("Modelo: $modelo")
+println("Preço: R$ $preco")
+println("Descontos: R$ $descontos")
+}
+}
+}

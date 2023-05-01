@@ -1,0 +1,7 @@
+ fun main() {
+       println("2º exercício ")
+       val a = 10;
+       val b = 50;
+       val maior = if(b > a)b else a
+       println("O valor maior é:" +maior)
+   }

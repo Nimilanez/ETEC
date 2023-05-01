@@ -1,0 +1,15 @@
+fun main() {
+    println ("Exercise1")
+    val turno: Double= 12.30;
+    println("Manhã - 5hs à 12:59")
+    println("Tarde - 13hs às 20,59hs")
+    println("Noite - 21hs às 4,59hs")
+    
+    if (turno >= 5.0 && turno <= 12.59) {
+      println("Turno da manhã")  
+    } else if (turno >= 13.0 && turno <= 20.59) {
+        println("Turno da Tarde")
+    } else if (turno >= 21.0 && turno <= 4.59) {
+     println("Turno da noite")
+    }
+    }
